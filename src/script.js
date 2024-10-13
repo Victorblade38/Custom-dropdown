@@ -7,9 +7,9 @@ dropBtn.addEventListener("click", () => {
   optionsList.classList.toggle("hidden");
 
   if (optionsList.classList.contains("hidden")) {
-    dropBtn.setAttribute("src", "./uparrow.png");
+    dropBtn.setAttribute("src", "./src/uparrow.png");
   } else {
-    dropBtn.setAttribute("src", "./downarrow.png");
+    dropBtn.setAttribute("src", "./src/downarrow.png");
   }
 });
 
